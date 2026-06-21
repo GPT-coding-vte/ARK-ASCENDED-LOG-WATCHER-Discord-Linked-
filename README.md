@@ -25,21 +25,6 @@ An automated log monitoring and tribal status tracking utility designed for **AR
 
 ---
 
-## 🎨 Interface Typography & Theme Specification
-
-If you plan on modifying the design system or scaling the interface windows, the visual layout maps across the following exact typography constants defined within `ark_bot.py`:
-
-### Font Configuration Mapping
-| Font Type Class | Target Font Family | Pixel Size | Weight / Style | Application Mapping |
-| :--- | :--- | :--- | :--- | :--- |
-| **`FONT_TITLE`** | `Segoe UI` | `13` | **Bold** (`"bold"`) | Section Header Labels, Control Buttons |
-| **`FONT_LABEL`** | `Segoe UI` | `11` | Regular | Input Boxes, Checkbox Text, standard labels |
-| **`FONT_SMALL`** | `Segoe UI` | `9` | Regular | Subtitles, Path references, Status strings |
-| **`FONT_MONO`** | `Consolas` | `10` | Regular | Live Diagnostic Log Box, Hotkey display fields |
-
-*Note: Special UI text blocks such as the Primary branding banner utilize hardcoded adjustments (`"Segoe UI Black"`, size `16`) to maintain clean relative visual scale across the application layout.*
-
----
 
 ## ⚙️ Running as a Standalone `.exe`
 
