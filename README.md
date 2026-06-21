@@ -152,3 +152,10 @@ For optimal reading performance, you must accurately define your screen scanning
 ## 🧑‍💻 Architecture Details
 
 The program operates inside an isolated tracking loop running parallel operational worker pipelines to prevent freezing your thread context:
+
+## 📥 Downloads
+
+You can download the latest compiled and ready-to-use Windows executable from the Releases section:
+
+➔ **[Download LogWatcher.exe (Latest Release)](https://github.com/TU_USUARIO/TU_REPOSITORIO/releases/latest)**
+
