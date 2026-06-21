@@ -157,5 +157,5 @@ The program operates inside an isolated tracking loop running parallel operation
 
 You can download the latest compiled and ready-to-use Windows executable from the Releases section:
 
-➔ **[Download LogWatcher.exe (Latest Release)](https://github.com/VULTURE/ARK-ASCENDED-LOG-WATCHER-Discord-Linked-/releases/latest)**
+➔ **[Download LogWatcher.exe (Latest Release)](https://github.com/whoisvulture/ARK-ASCENDED-LOG-WATCHER-Discord-Linked-/releases/latest)**
 
