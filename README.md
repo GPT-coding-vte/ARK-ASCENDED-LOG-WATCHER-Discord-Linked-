@@ -1,3 +1,5 @@
+Here is the updated README.md containing all the exact typography parameters used in the application. Adding this information directly to your repository is highly beneficial, as it provides clarity for developers who want to modify the UI layout or scale the scanning dimensions safely.
+
 ARK: Survival Ascended – Automation Bot
 An automated log monitoring and tribal status tracking utility designed for ARK: Survival Ascended. The bot runs as a lightweight desktop background worker, captures specific game screen regions using high-performance pixel diffing, analyzes text utilizing advanced OCR error-correcting algorithms, and relays critical gameplay notifications instantly to your Discord server via Webhooks.
 
@@ -20,10 +22,21 @@ Discord Integration: Rich embedded Discord layouts accompanied by customizable a
 
 User-Friendly UI Overlay: Modern Dark-Themed GUI built using CustomTkinter featuring a Snipping-Tool-style drag-and-drop region layout interface.
 
-⚙️ Running as a Standalone .exe (Important Note)
+🎨 Interface Typography & Theme Specification
+If you plan on modifying the design system or scaling the interface windows, the visual layout maps across the following exact typography constants defined within ark_bot.py[cite: 1]:
+
+Font Configuration Mapping
+Font Type Class	Target Font Family	Pixel Size	Weight / Style	Application Mapping
+FONT_TITLE[cite: 1]	Segoe UI[cite: 1]	13[cite: 1]	Bold ("bold")[cite: 1]	Section Header Labels, Control Buttons[cite: 1]
+FONT_LABEL[cite: 1]	Segoe UI[cite: 1]	11[cite: 1]	Regular[cite: 1]	Input Boxes, Checkbox Text, standard labels[cite: 1]
+FONT_SMALL[cite: 1]	Segoe UI[cite: 1]	9[cite: 1]	Regular[cite: 1]	Subtitles, Path references, Status strings[cite: 1]
+FONT_MONO[cite: 1]	Consolas[cite: 1]	10[cite: 1]	Regular[cite: 1]	Live Diagnostic Log Box, Hotkey display fields[cite: 1]
+Note: Special UI text blocks such as the Primary branding banner utilize hardcoded adjustments ("Segoe UI Black", size 16) to maintain clean relative visual scale across the application layout[cite: 1].
+
+⚙️ Running as a Standalone .exe
 When running this bot as a compiled .exe, all Python code, UI assets, and libraries are packed tightly inside the file. However, the Windows machine running the .exe still needs Tesseract OCR installed.
 
-The application code is already optimized to look for standard Tesseract installations automatically:
+The application code inside ark_bot.py is optimized to look for standard Tesseract installation directory pathways automatically[cite: 1]:
 
 Setup Checklist for End-Users:
 Download and run the Tesseract installer from the UB-Mannheim Tesseract Wiki.
